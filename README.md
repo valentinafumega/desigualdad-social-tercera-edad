@@ -1,4 +1,4 @@
-# Grupo Desigualdad Social: Tercera Edad***
+# Grupo Desigualdad Social: Tercera Edad 🧓👴👵
 - Basado en los Objetivos de Desarrollo Sostenible, identificamos como problemática en nuestra comunidad/barrio/familia/espacio: __La brecha digital entre las personas adultas mayores y la tecnología__. <br>
 * Lo elegimos porque _es una problemática actual que viene siendo invisibilizada desde los comienzos de la era tecnológica_. <br>
 + Nuestro público objetivo serán __personas de tercera edad__. <br>
