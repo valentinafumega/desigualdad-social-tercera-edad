@@ -3,3 +3,21 @@ h1 {
     font-family: 'Times New Roman', Times, serif; font-style: italic; text-align: center;
 }
 
+a {
+    text-decoration: none; 
+    
+}
+ul {
+    list-style-type: none;
+    padding: 0; /* Elimina el padding por defecto */
+    margin: 0; /* Elimina el margin por defecto */
+}
+.navbar ul {
+    display: flex; /* Muestra los elementos en línea */
+}
+.navbar ul li {
+    margin-right: 50px; /* Espacio entre elementos */
+
+font-size: larger;
+}
+
