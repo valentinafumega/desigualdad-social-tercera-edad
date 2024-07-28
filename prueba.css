@@ -1,24 +1,53 @@
-h1 {
-    color:#955E14;
-    font-family: 'Times New Roman', Times, serif; font-style: italic; text-align: center;
+
+header {
+    margin-bottom: 20px;
 }
+
+/* Estilo para sección main */
+main h1 {
+    color: #955E14;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0;
+}
+
 
 a {
-    text-decoration: none; 
-    
+    text-decoration: none;
+    color: #000;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0; /* Elimina el padding por defecto */
-    margin: 0; /* Elimina el margin por defecto */
+/* Barra de navegación */
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
 }
-.navbar ul {
-    display: flex; /* Muestra los elementos en línea */
-}
-.navbar ul li {
-    margin-right: 50px; /* Espacio entre elementos */
 
-font-size: larger;
+.navbar-nav .nav-item {
+    margin-right: 20px; /* Espacio entre los elementos de la lista */
+    font-size: larger;
+}
+
+/* Iconos nav-bar */
+.navbar-nav .nav-item i {
+    margin-left: 5px; 
+}
+
+/* Formulario/recuadro */
+main .form-label {
+    font-weight: bold; 
+}
+
+main .form-control {
+    margin-bottom: 10px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center; 
+    padding: 10px 0; /* Espacio arriba y abajo del pie de página */
+    background-color: #f8f9fa; 
+    color: #6c757d; /* Color del texto en el pie de página */
 }
 
