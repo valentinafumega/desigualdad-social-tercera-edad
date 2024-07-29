@@ -11,6 +11,10 @@ main h1 {
     margin: 20px 0;
 }
 
+body {
+background-color: #F7ECD7 ;
+}
+
 
 a {
     text-decoration: none;
@@ -18,9 +22,23 @@ a {
 }
 
 /* Barra de navegación */
+
+.container-fluid {
+font-family: Georgia;
+    
+}
+
 .navbar-nav {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    background-color: #FBD8A9;
+    font-weight: bold;
+    color: #000;
+}
+
+.navbar-brand {
+margin-left: auto;
 }
 
 .navbar-nav .nav-item {
