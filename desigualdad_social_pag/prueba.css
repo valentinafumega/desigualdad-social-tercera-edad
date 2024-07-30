@@ -21,6 +21,16 @@ a {
     color: #000;
 }
 
+.carousel-inner img {
+    width: 100%;
+    max-height: 600px;
+}
+
+.carousel-inner {
+ height: 600px;
+}
+
+
 /* Barra de navegación */
 
 .container-fluid {
@@ -51,6 +61,8 @@ margin-left: auto;
     margin-left: 5px; 
 }
 
+
+
 /* Formulario/recuadro */
 main .form-label {
     font-weight: bold; 
@@ -59,6 +71,7 @@ main .form-label {
 main .form-control {
     margin-bottom: 10px;
 }
+
 
 /* Estilo para el pie de página */
 footer {
