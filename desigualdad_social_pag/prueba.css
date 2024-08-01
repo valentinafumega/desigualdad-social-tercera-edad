@@ -51,10 +51,23 @@ font-family: Georgia;
 margin-left: auto;
 }
 
-.navbar-nav .nav-item {
-    margin-right: 20px; /* Espacio entre los elementos de la lista */
+.navbar-nav {
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 45px; /* Aplica margen izquierdo y derecho igual */
     font-size: larger;
 }
+
+.navbar-nav .nav-item:first-child {
+    margin-left: 0; /* Elimina margen izquierdo del primer elemento */
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0; /* Elimina margen derecho del último elemento */
+}
+
 
 /* Iconos nav-bar */
 .navbar-nav .nav-item i {
@@ -79,4 +92,35 @@ footer {
     padding: 10px 0; /* Espacio arriba y abajo del pie de página */
     background-color: #f8f9fa; 
     color: #6c757d; /* Color del texto en el pie de página */
+}
+
+/* Informacion sobre la brecha tecnologica */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px; /* Aplica un margen a todo el cuerpo de la página */
+    line-height: 1.7;
+}
+
+
+h4, h5 {
+    color: #333;
+    text-align: center; /* Centra los títulos */
+    text-decoration: underline; /* Subraya los títulos */
+    margin-bottom: 20px;
+}
+
+
+p {
+    line-height: 1.6;
+    font-size: 18px; /* Tamaño de fuente más grande para legibilidad */
+    margin-bottom: 20px; /* Espacio entre párrafos */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+ul li {
+    margin-bottom: 10px;
 }
