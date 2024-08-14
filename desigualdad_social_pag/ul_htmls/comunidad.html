@@ -50,6 +50,44 @@
 
     <main>
         <!-- Contenido COMUNIDAD -->
+
+        <section class="forum">
+          <article class="post">
+            <i class="bi bi-chat-right-dots"></i> <h2> Foro de discusión </h2>
+              <div class="comments">
+                  <div class="comment">
+                      <p class="author"> <u> Norma Gutierrez:</u> </p>
+                      <p> Me llamo Norma, tengo 70 años y 3 nietos de diversas edades. Quisiera aprender sobre este mundo de la tecnología. Al ser utópico para mi, me gustaría
+                        estar a la par con mis nietos y comprenderlos en su mundo digital. Lamentablemente me da vergüenza solicitarles ayuda, así que, me gustaría pedir un
+                        consejo sobre cómo abrirme a ellos de una forma sutil. </p>
+                  </div>
+
+                  <div class="comment">
+                      <p class="author"> <u> Alberto Cannaleti:</u> </p>
+                      <p> En mi caso Norma, yo no tengo nietos, pero ¿vió que últimamente los trámites se están gestionando de forma Online? <br>
+                      Por mi parte, me parece desgastante perder mi tiempo con la computadora o el celular. Me gustan los trabajos a la antigua, lápiz y papel.
+                    ¿Y sabe lo peor de todo? Atención al Cliente lo trata mal por estar "desacostumbrado" a cualquier dispositivo tecnológico. </p>
+                  </div>
+
+                  <div class="comment">
+                      <p class="author"> <u> Adelina Juarez:</u> </p>
+                      <p> Estimados Alberto y Norma: <br> Comparto en el sentimiento lo que escribieron, ya que me siento identificada en ambos puntos de vista.
+                      Sin embargo, viendo cómo avanza la sociedad hoy en día, ya lo de papel quedó "obsoleto" y se comenzó a digitalizar. Por ende, nada se perdió sino que se transformó.
+                      Es dificil para nosotros aprender algo que está fuera de nuestra órbita (y rango de concentración).
+                     </p>
+                  </div>
+              </div>
+          </article>
+
+          <form class="comment-form" id="comment-form">
+              <h3>Deja tu comentario:</h3>
+              <input class="nombre" type="text" name="author" id="author" placeholder="Tu nombre..." required>
+              <textarea name="comment" id="comment" rows="4" placeholder="Escribe tu comentario aquí..." required></textarea>
+              <button type="submit">Enviar</button>
+          </form>
+      </section>
+  </main>
+</section>
         
             </main>
 
@@ -63,3 +101,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+       <!-- Script JavaScript-->
+<script src="script-foro.js" > </script>
+
+</body>
+</html>
