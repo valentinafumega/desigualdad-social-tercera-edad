@@ -27,8 +27,8 @@
 }
 
 .contact-form button {
-    background-color: #38A351;
-    color: white;
+    background-color: #e1ac65;
+    color: black;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -36,7 +36,7 @@
 }
 
 .contact-form button:hover {
-    background-color: #2f8531;
+    background-color: #e1ac65;
 }
 
 .contact-map {
@@ -48,3 +48,67 @@
     height: auto;
     border-radius: 5px;
 }
+
+/* Barra de navegación */
+
+.container-fluid {
+    font-family: Georgia;
+        
+    }
+    
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: #FBD8A9;
+        font-weight: bold;
+        color: #000;
+    }
+    
+    .navbar-brand {
+    margin-left: auto;
+    }
+    
+    .navbar-nav {
+        display: flex;
+    }
+    
+    .nav-item {
+        margin: 0 45px; /* Aplica margen izquierdo y derecho igual */
+        font-size: larger;
+    }
+    
+    .navbar-nav .nav-item:first-child {
+        margin-left: 0; /* Elimina margen izquierdo del primer elemento */
+    }
+    
+    .navbar-nav .nav-item:last-child {
+        margin-right: 0; /* Elimina margen derecho del último elemento */
+    }
+    
+    
+    /* Iconos nav-bar */
+    .navbar-nav .nav-item i {
+        margin-left: 5px; 
+    }
+
+    body {
+        background-color: #F7ECD7 ;
+        }
+
+        h1 {
+            color: #955E14;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            text-align: center;
+            margin: 20px 0;
+            
+        }
+
+        footer {
+            text-align: center; 
+            padding: 10px 0; /* Espacio arriba y abajo del pie de página */
+            background-color: #f8f9fa; 
+            color: #6c757d; /* Color del texto en el pie de página */
+        }
+        
