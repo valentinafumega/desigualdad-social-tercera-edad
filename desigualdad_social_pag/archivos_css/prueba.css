@@ -16,6 +16,13 @@ background-color: #F7ECD7 ;
 }
 
 
+h3 {
+    color: #955E14;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: justify;
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -53,6 +60,8 @@ margin-left: auto;
 
 .navbar-nav {
     display: flex;
+    width: 100%;
+  max-width: none;
 }
 
 .nav-item {
@@ -89,9 +98,9 @@ main .form-control {
 /* Estilo para el pie de página */
 footer {
     text-align: center; 
-    padding: 10px 0; /* Espacio arriba y abajo del pie de página */
-    background-color: #f8f9fa; 
-    color: #6c757d; /* Color del texto en el pie de página */
+    padding: 10px 0;
+    background-color: #F7ECD7;
+    color: black;
 }
 
 /* Informacion sobre la brecha tecnologica */
@@ -125,4 +134,49 @@ ul {
 ul li {
     margin-bottom: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Comment form de comunidad_html*/
+
+/* Estilo para el formulario en general */
+.comment-form {
+    width: 100%;
+    max-width: none; /* Ancho máximo para el formulario (evita que sea demasiado grande) */
+    margin: 0 auto;
+    padding: 20px; /* Espacio interno alrededor del contenido del formulario */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; /* Color de fondo del formulario */
+}
+
+/* Comment form nombre */
+.comment-form .nombre,
+.comment-form textarea {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 10px; /* Espacio debajo de los campos de entrada */
+    border: 1px solid #ddd; /* Borde de los campos de entrada */
+    border-radius: 4px; /* Bordes redondeados de los campos de entrada */
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el ancho total */
+}
+
+/* Estilo para el área de texto */
+.comment-form textarea {
+    resize: vertical; /* Permite que el área de texto se redimensione verticalmente */
+}
+
+/* Estilo para el botón de envío */
+.comment-form button {
+    background-color: #e6ceb0;
+    color: black; 
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; 
+}
+
+.comment-form button:hover {
+    background-color: #e1ac65;
 }
