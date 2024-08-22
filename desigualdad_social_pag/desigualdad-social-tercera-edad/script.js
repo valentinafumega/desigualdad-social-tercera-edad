@@ -1,1 +1,1 @@
-alert("Prueba")
+alert("¡Bienvenidos a Residencia Grace! Les invitamos a investigar nuestro sitio web.")
