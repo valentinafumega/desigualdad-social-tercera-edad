@@ -19,7 +19,7 @@ Realizaremos un sitio informativo donde brindaremos información de capacitacion
 ## 💡 Entrega 3: Proyecto final (29/8)
 
 *Checklist* para esta entrega 🧓👴👵:
-- [x] ¿Nuestro proyecto tiene, como mínimo, un archivo **.HTML**, uno **.CSS**, y uno **.JS**? Nuestro proyecto tiene archivos **.HTML*, **.CSS**, y uno **.JS**.
+- [x] Nuestro proyecto tiene archivos **.HTML*, **.CSS**, y uno **.JS**.
 - [x] Nuestro archivo .js sí se encuentra bien relacionado con nuestro archivo .html
 - [x] Hemos incluido Bootstrap dentro del archivo .js
 - [x] ¿Qué *comportamiento* estamos aplicando mediante Javascript?
