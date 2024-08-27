@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Validar si los campos están completos
         if (name && email && message) {
-            alert('¡Gracias por contactarnos!');
+            alert('¡Gracias por contactarse con Residencia Grace! A la brevedad nos comunicaremos con usted.');
         }
     });
 });
